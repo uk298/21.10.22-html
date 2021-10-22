@@ -1,0 +1,17 @@
+#wrap{width: 100%; height: 100%;}
+#wrap > h1{font-size: 0;}
+header.logo_box{position: absolute; right: 35px; top: 70px;}
+header.logo_box img{width: 100px;}
+#wrap header{width: 180px; height: 100%; position: fixed; right: 0px; top: 0px; background: url(../images/menu_bg1.png)repeat-y; z-index;11;}
+#wrap header nav{width: 100%; height: 100%;}
+#warp header nav ul{width: 100%; height: 100%; display: flex; flex-direction:column; justify-content: center;}
+#container{width: 100%; height: 100%; position: relative;}
+#container .content{width:25%; height: 100%; position: absolute;}
+#container #menu1{left:0%;}
+#container #menu2{left:33%;}
+#container #menu3{left:66%;}
+#warp header nav li{margin: 0px 0px 10px 30px; padding-left:15px; position:relative;}
+#warp header nav ul li a{font-size: 16px; color:#fff; font-weight: 600; line-height: 30px;}
+#warap header nav ul li:after{content: ""; display: block; width:5px; height: 5px; border-radius: 50%; background: #fff; position:absolute; left:0px; top:13px}
+#warp header nav ul li: hover a, #wrap header nav ul li.on a{color:#ed3140;}
+#warp header nav ul li: hover:after, #warp header nav ul li.on:after{background: #ed3140;}
